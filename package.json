@@ -1,0 +1,45 @@
+{
+  "name": "grunt-svg2css",
+  "description": "Use svg2css in your Grunt projects",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vieron/grunt-svg2css",
+  "author": {
+    "name": "vieron",
+    "email": "javiersanchezmarin@gmail.com",
+    "url": "http://vieron.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vieron/grunt-svg2css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vieron/grunt-svg2css/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vieron/grunt-svg2css/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "svg2css": "0.0.1"
+  }
+}
