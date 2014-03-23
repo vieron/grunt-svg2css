@@ -12,19 +12,10 @@ var SVG2CSS = require('svg2css');
 var path = require('path');
 
 module.exports = function(grunt) {
+    grunt.registerMultiTask('svg2css', 'Colorfy', function() {
+        var svg2css = new SVG2CSS(this.data);
+        svg2css.run();
 
-  grunt.registerMultiTask('svg2css', 'Colorfy', function() {
-    var svg2css = new SVG2CSS(this.data);
-
-    svg2css
-      .readColorData()
-      .extractColors()
-      .copyToOutput()
-      .toSprite()
-      .toCSS();
-
-    grunt.log.writeln('SVG generated');
-
-  });
-
+        grunt.log.writeln('SVG generated');
+    });
 };
