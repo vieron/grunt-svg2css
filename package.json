@@ -1,7 +1,7 @@
 {
   "name": "grunt-svg2css",
   "description": "Use svg2css in your Grunt projects",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/vieron/grunt-svg2css",
   "author": {
     "name": "vieron",
