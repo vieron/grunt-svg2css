@@ -40,6 +40,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "svg2css": "0.0.6"
+    "svg2css": "0.0.7"
   }
 }
